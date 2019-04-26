@@ -1,0 +1,30 @@
+{
+  "name": "ddsblaze-server",
+  "version": "1.0.0",
+  "description": "back-end service for DDSBlaze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R4HMATT/DDSBlaze.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R4HMATT/DDSBlaze/issues"
+  },
+  "homepage": "https://github.com/R4HMATT/DDSBlaze#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "twilio": "^3.30.2"
+  }
+}
