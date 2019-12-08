@@ -1,9 +1,7 @@
 # Welcome!
 
-First of all, welcome to the DDSBlaze project :) I wanted to follow up on what we covered during our last group mentoring session as well as a small setup guide. Here are some important links (pls bookmark):
+This project is a fork of the original DDSBlaze project. The purpose of this was to prepare it for deployment via Heroku.
 
-
-Remote Sharepoint: https://rahmnik.sharepoint.com/ <br/>
 Original GitHub: https://github.com/R4HMATT/DDSBlaze (this also contains an important README.md) <br/>
  
 # Set up
