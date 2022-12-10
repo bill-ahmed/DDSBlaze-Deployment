@@ -24,7 +24,7 @@
   "homepage": "https://github.com/R4HMATT/DDSBlaze#readme",
   "dependencies": {
     "concurrently": "^4.1.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "twilio": "^3.30.2"
   }
 }
